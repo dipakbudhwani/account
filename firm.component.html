@@ -1,0 +1,35 @@
+<div class="container">
+<table *ngIf="firm">
+<tr>
+<th>Firm Name</th>
+<th>Proprietor</th>
+<th>Adress</th>
+<th>City</th>
+<th>Contact</th>
+<th>Emergency Contact</th>
+<th>Package</th>
+<th>AddedBy</th>
+</tr>
+<tr *ngFor="let f of firm" >
+<td>{{f.firmName}}</td>
+<td>{{f.proprietor}}</td>
+<td>{{f.adress}}</td>
+<td>{{f.city}}</td>
+<td>{{f.contact}}</td>
+<td>{{f.emergencyContact}}</td>
+<td  >{{f.package.packageName}}</td>
+<td>{{f.AddedBy}}</td>
+</tr>
+</table>
+	<h2>Add Business Firm Details </h2>
+	<label>Proprietor Name</label>
+	<input  type="text" placeholder="Commission" required="">
+	<label>Address</label>
+	<input  type="text" placeholder="Address" required="">
+	<label>Contact</label>
+	<input  type="number" placeholder="Contact" required="">
+	<label>Emergency Contact</label>
+	<input  type="number" placeholder="Emergency Contact" required="">
+	
+	<input type="submit" value="LogIn">
+</div>
