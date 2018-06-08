@@ -1,0 +1,88 @@
+.container{
+    display: block;
+    margin-top: 0em;
+    text-align: left;
+}
+label {
+    margin: 20px 0px 8px 0px;
+    font-size: 13px;
+    color: #000;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    display: block;
+    cursor: default;
+}
+h2{
+margin: 20px 0px 8px 0px;
+    font-size: 15;
+    color: #000;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    display: block;
+    cursor: default;
+}
+input , select{
+    
+    padding: 12px 15px;
+    border: 1px solid #000;
+    width: 100%;
+    letter-spacing: 1px;
+    box-sizing: border-box;
+    display: block;
+    font-family: 'Open Sans', sans-serif;
+	-webkit-appearance: textfield;
+    background-color: white;
+    -webkit-rtl-ordering: logical;
+    user-select: text;
+    cursor: auto;
+    text-rendering: auto;
+    color: initial;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    text-align: start;
+    margin: 0em 0em 0em 0em;
+    font: 13.3333px Arial;
+    -webkit-writing-mode: horizontal-tb;
+}
+
+input[type="submit"]
+{
+text-align: center ;
+background-color: silver;
+    cursor: pointer;
+}
+input[type="submit"]:hover{
+background-color: white;
+}
+a {
+    display: block;
+    text-align: right;
+    margin: 15px 0px;
+    text-decoration: none;
+}
+
+input[type="submit"]{
+    margin-top: 20px;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+	margin-bottom:20px;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
